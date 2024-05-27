@@ -1,0 +1,13 @@
+
+
+<button class="Show" (click)="show()">Send</button>
+
+<div class="container">
+    <div class="lista" *ngFor="let item of bookingData">
+        <h1>{{item.bookingId}}</h1>
+        <h1>{{item.cliente}}</h1>
+        <h1>{{item.fechaDeCreacion}}</h1>
+        <h1>{{item.direccion}}</h1>
+        <h1>{{item.precio}}</h1>
+    </div>
+</div>
